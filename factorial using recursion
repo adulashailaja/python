@@ -1,0 +1,10 @@
+def b(a):
+    if a==1:
+        return 1
+    else:
+        return a*b(a-1)
+        
+
+a=int(input("Enter number: "))
+res=b(a)
+print("factorial is: ",res)
