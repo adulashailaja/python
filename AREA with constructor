@@ -1,0 +1,10 @@
+class rec:
+    def __init__(self,l,b):
+        self.l=l
+        self.b=b
+    def display(self):
+        print("AREA:",self.l*self.b)
+r=rec(20,30)
+r1=rec(10,20)
+r.display()
+r1.display()
